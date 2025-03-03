@@ -11,3 +11,4 @@ describe('[smoke] Todo app list', () => {
       cy.get('.todo-list li').last().should('have.text', 'Walk the dog')
     })
   })
+  

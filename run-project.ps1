@@ -12,9 +12,9 @@ junitparser merge --glob "reports/junit-*" "reports/junit-report.xml"
 
 #5. Upload results
 trcli -y `
-    -h "https://marketing80testing.testrail-staging.com/" `
-    -u "trcli@gurock.io" `
-    -p "" `
+    -h "link of the project" `
+    -u "your testrail email id" `
+    -p "your testrail password" `
     --project "Todo App Test Project" `
     parse_junit `
     -f "reports/junit-report.xml" `
